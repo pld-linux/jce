@@ -25,7 +25,7 @@ objects. JCE is designed so that other qualified cryptography
 libraries can be plugged in as service providers, and new algorithms
 can be added seamlessly. (Qualified providers are signed by a trusted
 entity.)
-						 
+
 This optional package is provided for Java 1.2.x and 1.3.x. It has been
 integrated in Java 1.4.
 
