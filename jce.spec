@@ -1,4 +1,5 @@
-Summary:	JavaTM Cryptography Extension (JCE)
+Summary:	Java(TM) Cryptography Extension (JCE)
+Summary(pl):	Rozszerzenie kryptograficzne Javy (JCE)
 Name:		jce
 Version:	1.2.2
 %define _ver	%(echo %{version} | tr . -)
@@ -27,6 +28,22 @@ entity.)
 						 
 This optional package is provided for Java 1.2.x and 1.3.x. It has been
 integrated in Java 1.4.
+
+%description -l pl
+JCE (Java Cryptography Extension - rozszerzenie kryptograficzne Javy)
+to zbiór pakietów dostarczaj±cych szkieletu i implementacji
+szyfrowania, generowania i potwierdzania kluczy oraz algorytmów
+uwierzytelniania wiadomo¶ci (Message Authentication Code - MAC).
+Obs³ugiwane s± szyfry symetryczne i asymetryczne, blokowe i
+strumieniowe. Oprogramowanie obs³uguje tak¿e bezpieczne strumienie
+oraz opieczêtowane obiekty. JCE jest zaprojektowane tak, ¿eby inne
+kwalifikowane biblioteki kryptograficzne mog³y byæ w³±czane jako
+dostarczaj±ce us³ugi, a nowe algorytmy dodawane bez problemu
+(kwalifikowane biblioteki dostarczaj±ce s± podpisane przez zaufane
+jednostki).
+
+Ten opcjonalny pakiet jest przeznaczony dla Javy 1.2.x i 1.3.x, zosta³
+zintegrowany z Jav± 1.4.
 
 %prep
 %setup -q -n %{name}%{_ver}
