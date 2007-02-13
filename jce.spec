@@ -1,5 +1,5 @@
 Summary:	Java(TM) Cryptography Extension (JCE)
-Summary(pl.UTF-8):   Rozszerzenie kryptograficzne Javy (JCE)
+Summary(pl.UTF-8):	Rozszerzenie kryptograficzne Javy (JCE)
 Name:		jce
 Version:	1.2.2
 %define _ver	%(echo %{version} | tr . -)
