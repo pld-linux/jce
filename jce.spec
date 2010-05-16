@@ -8,8 +8,9 @@ License:	Sun Binary Code License
 Group:		Development/Languages/Java
 # download requires registration
 Source0:	%{name}%{_ver}.zip
-URL:		http://java.sun.com/products/jce/
 NoSource:	0
+URL:		http://java.sun.com/products/jce/
+BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
